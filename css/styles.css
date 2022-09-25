@@ -1,20 +1,20 @@
-body {
+/* body {
   background-color: #ffffff;
   color: #757575;
   font-style: normal;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
-:root {
+} */
+/* :root {
   --primery-text-color: #757575;
   --primery-accent-color: #2196f3;
   --primery-title-color: #212121;
   --primery-white-color: #ffffff;
   --logo-link-color: #afb1b8;
   --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* reset */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -22,13 +22,13 @@ h5,
 h6,
 p {
   margin: 0;
-}
-img {
+} */
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.list {
+} */
+/* .list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -36,8 +36,8 @@ img {
 .link {
   text-decoration: none;
   color: currentColor;
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -48,37 +48,34 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.section {
+} */
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 /**
   |============================
   | header
   |============================
 */
-.page-header {
+/* .page-header {
   border: 1px solid #ececec;
 }
 .page-header__container {
   display: flex;
   align-items: center;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-}
+} */
+
 /* LOGO */
 
-.logo {
+/* .logo {
   color: var(--primery-accent-color);
   font-family: 'Raleway';
   font-weight: 700;
@@ -92,15 +89,18 @@ img {
 }
 .logo__span--dark {
   color: #000000;
-}
+} */
 /* NAVIGATION */
+
+/* 
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .navigation__list {
   display: flex;
   margin-left: 93px;
 }
-/* .nav-list .nav-item + .nav-item {
-  margin-left: 50px;
-} */
 .navigation__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -137,10 +137,10 @@ img {
   height: 4px;
   background-color: var(--primery-accent-color);
   border-radius: 2px;
-}
+} */
 
 /* Contacts */
-.contact__list {
+/* .contact__list {
   display: flex;
   margin-left: auto;
 }
@@ -167,14 +167,14 @@ img {
 }
 .contact__icon {
   fill: currentColor;
-}
+} */
 /**
   |============================
   | main
   |============================
 */
 /* Hero section */
-.hero {
+/* .hero {
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -204,38 +204,39 @@ img {
   text-transform: uppercase;
   text-align: center;
   width: 696px;
-}
+} */
 /* Кнопки */
-.btn {
+/* .btn {
   border-radius: 4px;
   border: 1px solid transparent;
   text-align: center;
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
-}
-.hero__btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--primery-white-color);
-  background-color: var(--primery-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-weight: 700;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
-  padding: 10px 32px;
-  min-width: 216px;
   transition: color var(--main-animation), background-color var(--main-animation);
-}
-.hero__btn:hover,
-.hero__btn:focus,
-.hero__btn:active {
-  color: var(--primery-title-color);
-  background-color: #f5f4fa;
-}
+} */
+/* .hero__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primery-white-color);
+    background-color: var(--primery-accent-color);
+    font-weight: 700;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    min-width: 216px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  .hero__btn:hover,
+  .hero__btn:focus,
+  .hero__btn:active {
+    color: var(--primery-title-color);
+    background-color: #f5f4fa;
+  } */
 /* Our benefits */
-.benefits__list {
+/* .benefits__list {
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -269,9 +270,9 @@ img {
 }
 .benefits__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 /* Work section */
-.work {
+/* .work {
   padding-top: 0;
 }
 .work__title {
@@ -319,9 +320,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-white-color);
-}
+} */
 /* Наша команда */
-.team {
+/* .team {
   background: #f5f4fa;
 }
 .team__title {
@@ -361,9 +362,9 @@ img {
   line-height: calc(19 / 16);
   text-align: center;
   margin-bottom: 28px;
-}
+} */
 /* Socials */
-.socials__list {
+/* .socials__list {
   list-style: none;
   display: flex;
   gap: 10px;
@@ -395,9 +396,9 @@ img {
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: var(--primery-white-color);
-}
+} */
 /* Clients */
-.clients__title {
+/* .clients__title {
   margin-bottom: 50px;
 
   color: var(--primery-title-color);
@@ -438,17 +439,15 @@ img {
 .clients__link:focus .clients__icon {
   fill: var(--primery-accent-color);
   cursor: pointer;
-}
+} */
 /* Portfolio */
-.filter__btn {
+/* .filter__btn {
   padding: 6px 22px;
   color: var(--primery-title-color);
   background: #f5f4fa;
   font-weight: 500;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-  transition: background-color var(--main-animation), color var(--main-animation),
-    box-shadow var(--main-animation);
 }
 .filter__btn:hover,
 .filter__btn:focus,
@@ -467,8 +466,8 @@ img {
 }
 .filter__item + .filter__item {
   margin-left: 8px;
-}
-.potfolio__title {
+} */
+/* .potfolio__title {
   margin-bottom: 4px;
 
   color: var(--primery-title-color);
@@ -546,7 +545,7 @@ img {
 .portfolio__link:focus .portfolio__box::before,
 .portfolio__link:focus .potfolio__text {
   transform: translateY(0);
-}
+} */
 /**
   |============================
   | Footer
@@ -843,7 +842,6 @@ footer {
   color: var(--primery-white-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: color var(--main-animation), background-color var(--main-animation);
 }
 .callback-form__btn:hover,
 .callback-form__btn:focus,
@@ -895,10 +893,9 @@ footer {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primery-white-color);
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: color var(--main-animation), background-color var(--main-animation);
 }
 .subscribe-form__btn:hover,
 .subscribe-form__btn:focus,

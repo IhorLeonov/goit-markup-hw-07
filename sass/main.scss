@@ -1,12 +1,28 @@
 // utils styles
-@import './utils/vars.scss';
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 // base styles
-@import './base/base';
 @import './base/reset';
+@import './base/base';
+@import './base/container';
+// @import './base/';
 
 // layout styles
-// @import '';
+@import './layouts/navigation';
+@import './layouts/contacts';
+@import './layouts/hero';
+@import './layouts/benefits';
+@import './layouts/work';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/filter';
+@import './layouts/portfolio';
 
 // components styles
-// @import '';
+@import './components/page-header';
+@import './components/logo';
+@import './components/btn';
+@import './components/socials';

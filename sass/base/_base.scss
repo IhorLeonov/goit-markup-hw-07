@@ -1,9 +1,16 @@
-/**
-  |============================
-  | block 2
-  |============================
-*/
-
 body {
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #757575;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

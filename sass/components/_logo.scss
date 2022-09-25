@@ -1,0 +1,15 @@
+.logo {
+  color: var(--primery-accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.page-header__logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.logo__span--dark {
+  color: #000000;
+}
