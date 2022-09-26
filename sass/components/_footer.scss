@@ -1,0 +1,33 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+  }
+
+  &__box:nth-child(2) {
+    margin-left: 70px;
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: decimal-round(calc(16 / 14));
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+  }
+
+  &__socials__link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

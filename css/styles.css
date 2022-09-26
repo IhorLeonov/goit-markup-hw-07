@@ -551,7 +551,7 @@ p {
   | Footer
   |============================
 */
-footer {
+/* footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -567,11 +567,11 @@ footer {
 .footer__logo {
   display: block;
   margin-bottom: 20px;
-}
-.logo__span--white {
+} */
+/* .logo__span--white {
   color: var(--primery-white-color);
-}
-.adress__link {
+} */
+/* .adress__link {
   color: var(--primery-white-color);
   font-style: normal;
   font-weight: 400;
@@ -601,9 +601,8 @@ footer {
 }
 .contact-adress__list > li:last-child {
   margin-bottom: 0px;
-}
-/* socials link */
-.footer__title {
+} */
+/* .footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -613,18 +612,18 @@ footer {
 }
 .footer__socials__link {
   background-color: rgba(255, 255, 255, 0.1);
-}
-.socials__icon--dark {
+} */
+/* .socials__icon--dark {
   width: 20px;
   height: 20px;
   fill: var(--primery-white-color);
-}
+} */
 /**
   |============================
   | Modal window
   |============================
 */
-.backdrop {
+/* .backdrop {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -635,8 +634,17 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity var(--main-animation), visibility var(--main-animation);
+} */
+/* .backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
-.modal {
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 1;
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -652,17 +660,8 @@ footer {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--main-animation);
-}
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
-  opacity: 1;
-}
-.close-btn {
+} */
+/* .close-btn {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -687,13 +686,13 @@ footer {
 .close-btn:hover .close-btn__icon,
 .close-btn:focus .close-btn__icon {
   fill: var(--primery-accent-color);
-}
+} */
 /**
   |============================
   | Modal window form 
   |============================
 */
-.callback-form__title {
+/* .callback-form__title {
   display: block;
   text-align: center;
   margin-bottom: 30px;
@@ -780,8 +779,8 @@ footer {
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-.agreement {
+} */
+/* .agreement {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -826,8 +825,8 @@ footer {
 .agreement__desc {
   font-size: 14px;
   user-select: none;
-}
-.callback-form__btn {
+} */
+/* .callback-form__btn {
   display: block;
   margin: 0;
   margin-left: auto;
@@ -848,13 +847,13 @@ footer {
 .callback-form__btn:active {
   color: var(--primery-title-color);
   background-color: #f5f4fa;
-}
+} */
 /**
   |============================
   | Subscribe-form
   |============================
 */
-.subscribe-form {
+/* .subscribe-form {
   margin-left: 93px;
 }
 .subscribe-form__group {
@@ -915,4 +914,4 @@ footer {
 .subscribe-form__input:hover,
 .subscribe-form__input:focus {
   border-color: var(--primery-white-color);
-}
+} */
