@@ -40,6 +40,7 @@
     outline: 2px solid rgb(22, 67, 190);
     outline-offset: 1px;
     border-radius: 2px;
+    transition: none;
   }
 
   &__checkbox:hover + &__checkbox-icons {

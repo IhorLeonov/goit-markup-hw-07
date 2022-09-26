@@ -899,6 +899,8 @@ img {
   outline: 2px solid rgb(22, 67, 190);
   outline-offset: 1px;
   border-radius: 2px;
+  -webkit-transition: none;
+  transition: none;
 }
 .agreement__checkbox:hover + .agreement__checkbox-icons {
   outline: 1px solid var(--primery-accent-color);
